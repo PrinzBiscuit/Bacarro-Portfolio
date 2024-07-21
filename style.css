@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #080808;
+    background: #004572;
     color: #fff;
 }
 
@@ -33,7 +33,7 @@ nav h1 {
 }
 
 nav h1::first-letter, #footer h1::first-letter {
-    color: #ff004f;
+    color: #e9e7e7;
     text-shadow: 1px 1px #fff;
 }
 
@@ -68,7 +68,7 @@ nav ul li a:hover::after{
 
 .header-text p {
     margin-top: 20px;
-    color: #ff004f;
+    color: #f8f7f7;
     text-shadow: 1px 1px #fff;
 }
 
@@ -162,7 +162,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span {
-    color: #b54769;
+    color: #f6f4f5;
     font-size: 20px;
 }
 
@@ -424,4 +424,18 @@ form .btn2 {
     text-align: center;
     padding: 20px 0;
     margin-top: 100px;
+}
+
+.containerTool {
+    display: flex;
+    align-items: center;
+}
+.containerTool img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+}
+.containerTool p {
+    font-size: 16px;
+    color: #fefefe;
 }
